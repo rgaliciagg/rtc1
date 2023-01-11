@@ -1,2 +1,2 @@
 # rtc1
-# Reloj de tiempo real con arduino/pico, raspberry, servidor y cliente
+# Reloj de tiempo real con arduino/pico, comunicando en serie a la raspberry, servidor y cliente
