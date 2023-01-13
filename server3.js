@@ -19,7 +19,7 @@ function handler (req, res) { //create server
 const { SerialPort, ReadlineParser } = require('serialport')
 const port = new SerialPort({
     path: '/dev/ttyACM0',
-    baudRate: 9600 })
+    baudRate: 9600 }) //para Pico la velocidad de default es de 112500
 const parser = port.pipe(new ReadlineParser({ delimiter: '\r\n' }))
 //parser.on('data', (data) => {
 //    console.log(data)
