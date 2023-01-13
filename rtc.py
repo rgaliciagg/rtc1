@@ -10,8 +10,10 @@ count = 0
 #    led_pin.value(not led_pin.value())
 
 def counter(timer):
+    global count
     # increment count
-    print(count++)
+    print(count)
+    count += 1
 
 timer = Timer(-1)
 #timer.init(period=1000, mode=Timer.PERIODIC, callback=blink)
